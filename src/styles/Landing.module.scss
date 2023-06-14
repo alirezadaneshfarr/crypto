@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.searchInput{
+    all: unset;
+    padding: 10px;
+    margin: 45px auto;
+    background-color: rgba(94, 92, 92, 0.8);
+    color: #ff0000;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.searchInput:focus{
+    background-color: #fff;
+   
+}
+
+.container{
+    width: 65% !important;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 12px;
+}
+
+img{
+    width: 45px !important;
+}
+
+.cryptoContainer{
+    width: 70% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto;
+    text-align: center;
+    padding: 50px;
+    span{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
+
+.price{
+    color: #32a820;
+}
+
+.greenPrice{
+    color: #43db2c;
+}
+.redPrice{
+    color: #ff0000;
+}
